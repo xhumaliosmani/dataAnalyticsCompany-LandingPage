@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -11,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
       <h1 className="w-full text-3xl font-bold cursor-pointer text-[#00df9a]">
-        REACT.
+        DataMasters RX.
       </h1>
       <ul className="hidden md:flex">
         <li className="p-4 cursor-pointer font-semibold">Home</li>
@@ -20,6 +21,7 @@ const Navbar = () => {
         <li className="p-4 cursor-pointer font-semibold">About</li>
         <li className="p-4 cursor-pointer font-semibold">Contact</li>
       </ul>
+
       <button onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </button>
@@ -32,7 +34,7 @@ const Navbar = () => {
         }
       >
         <h1 className="w-full  text-3xl font-bold text-[#00df9a] cursor-pointer">
-          REACT.
+          DataMasters RX.
         </h1>
         <ul className="pt-24 uppercase p-4 h-screen">
           <li className="p-4 font-semibold cursor-pointer border-b border-b-gray-500/20">

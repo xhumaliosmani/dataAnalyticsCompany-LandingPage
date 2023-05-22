@@ -4,11 +4,13 @@ const Newsletter = () => {
   return (
     <div className="w-full py-16 text-white px-4">
       <div className="max-w-[1240] mx-auto grid md:grid-cols-3">
-        <div className="lg:col-span-2 ">
-          <h1 className="md:text4xl sm:text-3xl text-2xl font-bold py-2">
+        <div className="lg:col-span-2 sm:mt-8">
+          <h1 className="md:text4xl sm:text-3xl text-center text-2xl font-bold py-2">
             Want tips & Tricks to optimize your flow?
           </h1>
-          <p>Sign up to our newsletter and stay up to date.</p>
+          <p className=" sm:pl-16 text-center sm:ml-[-9%] pb-4">
+            Sign up to our newsletter and stay up to date.
+          </p>
         </div>
         <div className="my-4 ">
           <div className="flex flex-col sm:flex-row items-center justify-between w-full">
